@@ -25,7 +25,7 @@ var httpGet = function() {
 
 var urls = process.argv.slice(2);
 urls.forEach(function(url, index) {
-    httpGet(url, index)
+  httpGet(url, index);
 });
 
 
